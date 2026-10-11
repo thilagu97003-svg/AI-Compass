@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AICompass",
-    "slug": "AICompass",
+    "name": "AI Compass",
+    "slug": "ai-compass",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,7 +18,11 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
